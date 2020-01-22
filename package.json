@@ -1,0 +1,45 @@
+{
+  "name": "passvault",
+  "version": "1.0.0",
+  "description": "Credentials manager on the terminal",
+  "main": "bin/vault.js",
+  "bin": {
+    "vault": "bin/vault.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramtinsoltani/passvault.git"
+  },
+  "keywords": [
+    "password",
+    "cli",
+    "terminal",
+    "manager",
+    "credentials",
+    "vault",
+    "security",
+    "save"
+  ],
+  "author": "Ramtin Soltani <ramtin@chiselpowered.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramtinsoltani/passvault/issues"
+  },
+  "homepage": "https://github.com/ramtinsoltani/passvault#readme",
+  "dependencies": {
+    "argumental": "file:../../@chisel/argumental",
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.3",
+    "pbkdf2": "^3.0.17"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.1.8",
+    "@types/pbkdf2": "^3.0.0"
+  }
+}
