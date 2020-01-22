@@ -1,11 +1,11 @@
-# Pass Vault
+# Secret Vault
 
-Pass Vault is a credentials manager on the terminal. It allows creating multiple vaults with specific secret keys to store various credentials and retrieve them later using the same key.
+Secret Vault is a credentials manager on the terminal. It allows creating multiple vaults with specific secret keys to store various credentials and retrieve them later using the same key.
 
 ## Installation
 
 ```bash
-npm install passvault -g
+npm install secretvault -g
 vault --help
 ```
 

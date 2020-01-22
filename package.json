@@ -1,5 +1,5 @@
 {
-  "name": "passvault",
+  "name": "secretvault",
   "version": "1.0.0",
   "description": "Credentials manager on the terminal",
   "main": "bin/vault.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ramtinsoltani/passvault.git"
+    "url": "git+ssh://git@github.com/ramtinsoltani/secretvault.git"
   },
   "keywords": [
     "password",
@@ -21,14 +21,15 @@
     "credentials",
     "vault",
     "security",
-    "save"
+    "save",
+    "secret"
   ],
   "author": "Ramtin Soltani <ramtin@chiselpowered.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ramtinsoltani/passvault/issues"
+    "url": "https://github.com/ramtinsoltani/secretvault/issues"
   },
-  "homepage": "https://github.com/ramtinsoltani/passvault#readme",
+  "homepage": "https://github.com/ramtinsoltani/secretvault#readme",
   "dependencies": {
     "argumental": "^1.0.0",
     "chalk": "^3.0.0",
