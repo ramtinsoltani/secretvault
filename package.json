@@ -30,13 +30,14 @@
   },
   "homepage": "https://github.com/ramtinsoltani/passvault#readme",
   "dependencies": {
-    "argumental": "file:../../@chisel/argumental",
+    "argumental": "^1.0.0",
     "chalk": "^3.0.0",
     "fs-extra": "^8.1.0",
     "inquirer": "^7.0.3",
     "pbkdf2": "^3.0.17"
   },
   "devDependencies": {
+    "@types/chalk": "^2.2.0",
     "@types/fs-extra": "^8.0.1",
     "@types/inquirer": "^6.5.0",
     "@types/node": "^13.1.8",
