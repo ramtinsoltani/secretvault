@@ -34,6 +34,8 @@ app
 
 .on('validators:after', async data => {
 
+  if ( data.opts.help ) return;
+
   // If export filename is not free
   if ( fs.existsSync(path.join(data.args.dirname, data.args.vaultName + '.vault.gz')) ) {
 
