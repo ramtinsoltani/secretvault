@@ -1,6 +1,6 @@
 {
   "name": "secretvault",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Credentials manager on the terminal",
   "main": "bin/vault.js",
   "bin": {
